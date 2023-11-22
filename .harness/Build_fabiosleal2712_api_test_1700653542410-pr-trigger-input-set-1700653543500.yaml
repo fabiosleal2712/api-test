@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_fabiosleal2712_api_test_1700653542410-pr-trigger-input-set
+  identifier: Build_fabiosleal2712_api_test_1700653542410prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_fabiosleal2712_api_test_1700653542410
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
